@@ -27,7 +27,6 @@ sub run {
     my $meta = Load $meta_source;
     next if $meta->{skip};
     my $gallery_path = $gallery->to_string;
-    say $gallery_path;
 
     my $photos = $gallery->list->grep(qr/jpg|png|JPG|PNG/);
     for my $photo ($photos->each) {
