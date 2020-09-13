@@ -11,10 +11,10 @@ Mojolicious::Plugin::Gallery - Simple phot gallery for Mojolicious
 Mojolicious::Plugin::Gallery is if you want simple gallery
 
 Your steps
-- Make dir in public/gallery
-- Run ./cmd.pl resize
-- Update info in public/gallery/<your album>/meta.yml
-- Restart your app
+\- Make dir in public/gallery
+\- Run ./cmd.pl resize
+\- Update info in public/gallery/&lt;your album>/meta.yml
+\- Restart your app
 
 # AUTHOR
 

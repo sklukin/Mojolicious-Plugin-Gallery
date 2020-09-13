@@ -11,7 +11,7 @@ __END__
 
 =head1 NAME
 
-Mojolicious::Plugin::Gallery - Blah blah blah
+Mojolicious::Plugin::Gallery - Simple phot gallery for Mojolicious
 
 =head1 SYNOPSIS
 
@@ -19,7 +19,13 @@ Mojolicious::Plugin::Gallery - Blah blah blah
 
 =head1 DESCRIPTION
 
-Mojolicious::Plugin::Gallery is
+Mojolicious::Plugin::Gallery is if you want simple gallery
+
+Your steps
+- Make dir in public/gallery
+- Run ./cmd.pl resize
+- Update info in public/gallery/<your album>/meta.yml
+- Restart your app
 
 =head1 AUTHOR
 

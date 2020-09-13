@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Simple phot gallery for Mojolicious",
    "author" : [
       "sklukin <sklukin@yandex.ru>"
    ],
@@ -50,7 +50,18 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/sklukin/Mojolicious-Plugin-Galley/issues"
+      },
+      "homepage" : "https://github.com/sklukin/Mojolicious-Plugin-Galley",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/sklukin/Mojolicious-Plugin-Galley.git",
+         "web" : "https://github.com/sklukin/Mojolicious-Plugin-Galley"
+      }
+   },
+   "version" : "0.03",
    "x_generated_by_perl" : "v5.30.1",
    "x_serialization_backend" : "Cpanel::JSON::XS version 4.23",
    "x_spdx_expression" : "Artistic-1.0-Perl OR GPL-1.0-or-later",
