@@ -23,6 +23,7 @@ sub register {
     die 'meta is undef' unless $meta_source;
     my $meta = Load $meta_source->slurp;
     next unless $meta->{show};
+
     my $gallery_name = $gallery->basename;
     my $gallery_path = $gallery->to_string;
     my $photos_path  = sprintf '%s/large', $gallery->to_string;
