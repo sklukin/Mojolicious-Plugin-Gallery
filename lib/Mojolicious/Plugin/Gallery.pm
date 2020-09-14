@@ -33,6 +33,7 @@ sub register {
     for my $photo ($photos->each) {
       my $filename = $photo->basename;
       my $gallery_path_withot_public = $gallery_path;
+
       # some Workaround. Fix it
       $gallery_path_withot_public =~ s/public\///;
       say $gallery_path_withot_public;
@@ -104,7 +105,7 @@ sklukin E<lt>sklukin@yandex.ruE<gt>
 
 =head1 COPYRIGHT
 
-Copyright 2020- sklukin
+Copyright 2020-2020 sklukin
 
 =head1 LICENSE
 

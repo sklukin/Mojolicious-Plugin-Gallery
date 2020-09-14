@@ -22,7 +22,7 @@ sklukin <sklukin@yandex.ru>
 
 # COPYRIGHT
 
-Copyright 2020- sklukin
+Copyright 2020-2020 sklukin
 
 # LICENSE
 
