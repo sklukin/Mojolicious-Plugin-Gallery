@@ -82,7 +82,7 @@ __END__
 
 =head1 NAME
 
-Mojolicious::Plugin::Gallery - Simple phot gallery for Mojolicious
+Mojolicious::Plugin::Gallery - Simple photo gallery for Mojolicious
 
 =head1 SYNOPSIS
 
@@ -90,7 +90,7 @@ Mojolicious::Plugin::Gallery - Simple phot gallery for Mojolicious
 
 =head1 DESCRIPTION
 
-Mojolicious::Plugin::Gallery is if you want simple gallery
+Mojolicious::Plugin::Gallery use if you want to create simple gallery
 
 Exampler content main.conf
 
@@ -140,9 +140,10 @@ example app.pl
 
   app->start;
 
-Alose you can find example app on https://github.com/sklukin/Mojolicious-Plugin-Galley
+Also you can find example app on https://github.com/sklukin/Mojolicious-Plugin-Gallery
 
-Your steps
+Your steps for create new photo gallery
+
   - Make dir in public/gallery
   - Run ./cmd.pl resize
   - Update info in public/gallery/<your album>/meta.yml

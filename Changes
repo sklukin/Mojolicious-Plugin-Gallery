@@ -1,5 +1,8 @@
 Revision history for Mojolicious-Plugin-Gallery
 
+0.10  2020-09-16 01:50:21 MSK
+        - Update pod and change git remote
+
 0.09  2020-09-16 01:50:21 MSK
         - Update pod
 

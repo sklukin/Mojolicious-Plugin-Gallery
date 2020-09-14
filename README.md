@@ -1,6 +1,6 @@
 # NAME
 
-Mojolicious::Plugin::Gallery - Simple phot gallery for Mojolicious
+Mojolicious::Plugin::Gallery - Simple photo gallery for Mojolicious
 
 # SYNOPSIS
 
@@ -8,7 +8,7 @@ Mojolicious::Plugin::Gallery - Simple phot gallery for Mojolicious
 
 # DESCRIPTION
 
-Mojolicious::Plugin::Gallery is if you want simple gallery
+Mojolicious::Plugin::Gallery use if you want to create simple gallery
 
 Exampler content main.conf
 
@@ -57,13 +57,14 @@ example app.pl
 
     app->start;
 
-Alose you can find example app on https://github.com/sklukin/Mojolicious-Plugin-Galley
+Also you can find example app on https://github.com/sklukin/Mojolicious-Plugin-Gallery
 
-Your steps
-  - Make dir in public/gallery
-  - Run ./cmd.pl resize
-  - Update info in public/gallery/&lt;your album>/meta.yml
-  - Restart your app
+Your steps for create new photo gallery
+
+    - Make dir in public/gallery
+    - Run ./cmd.pl resize
+    - Update info in public/gallery/<your album>/meta.yml
+    - Restart your app
 
 # AUTHOR
 

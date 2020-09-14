@@ -1,5 +1,5 @@
 {
-   "abstract" : "Simple phot gallery for Mojolicious",
+   "abstract" : "Simple photo gallery for Mojolicious",
    "author" : [
       "sklukin <sklukin@yandex.ru>"
    ],
@@ -52,13 +52,13 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/sklukin/Mojolicious-Plugin-Galley/issues"
+         "web" : "https://github.com/sklukin/Mojolicious-Plugin-Gallery/issues"
       },
-      "homepage" : "https://github.com/sklukin/Mojolicious-Plugin-Galley",
+      "homepage" : "https://github.com/sklukin/Mojolicious-Plugin-Gallery",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/sklukin/Mojolicious-Plugin-Galley.git",
-         "web" : "https://github.com/sklukin/Mojolicious-Plugin-Galley"
+         "url" : "https://github.com/sklukin/Mojolicious-Plugin-Gallery.git",
+         "web" : "https://github.com/sklukin/Mojolicious-Plugin-Gallery"
       }
    },
    "version" : "0.09",
