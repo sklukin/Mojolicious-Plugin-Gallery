@@ -64,7 +64,7 @@ sub register {
     };
   }
 
-  $app->routes->get('/photos')->to(cb => sub {
+  $app->routes->get('/gallery')->to(cb => sub {
     my $c = shift;
     $c->render(template => 'gallery/list',
       page_title   => 'Somoe Photos',
@@ -73,8 +73,6 @@ sub register {
   });
 
 }
-
-
 
 1;
 __END__

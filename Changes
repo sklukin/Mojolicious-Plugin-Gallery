@@ -2,6 +2,9 @@ Revision history for Mojolicious-Plugin-Gallery
 
 {{$NEXT}}
 
+0.06  2020-09-14 01:50:21 MSK
+        - Try push to cpan
+
 0.05  2020-09-14 01:50:21 MSK
         - Add code of Plugin
 
