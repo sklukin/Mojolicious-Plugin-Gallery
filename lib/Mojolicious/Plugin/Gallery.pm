@@ -93,6 +93,7 @@ Mojolicious::Plugin::Gallery - Simple phot gallery for Mojolicious
 Mojolicious::Plugin::Gallery is if you want simple gallery
 
 Exampler content main.conf
+
   {
     gallery => {
       main_path => 'public/gallery',

@@ -1,5 +1,8 @@
 Revision history for Mojolicious-Plugin-Gallery
 
+0.09  2020-09-16 01:50:21 MSK
+        - Update pod
+
 0.08  2020-09-16 01:50:21 MSK
         - Remove js and update plugin and test app
 
