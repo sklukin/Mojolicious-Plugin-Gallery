@@ -2,7 +2,7 @@ package Mojolicious::Plugin::Gallery;
 
 use strict;
 use 5.008_005;
-our $VERSION = '0.09';
+our $VERSION = '0.10';
 
 use Mojo::Base 'Mojolicious::Plugin';
 use Mojo::File 'path';
