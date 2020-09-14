@@ -11,31 +11,32 @@ Mojolicious::Plugin::Gallery - Simple phot gallery for Mojolicious
 Mojolicious::Plugin::Gallery is if you want simple gallery
 
 Exampler content main.conf
-  {
-    gallery => {
-      main\_path => 'public/gallery',
-      sizes => {
-        thumbnail => {
-          width   => 412,
-          height  => 412,
-          crop    => 1,
-          quality => 85
-        },
-        medium => {
-          width   => 800,
-          height  => 550,
-          crop    => 0,
-          quality => 90
-        },
-        large => {
-          width   => 1200,
-          height  => 800,
-          crop    => 0,
-          quality => 90
+
+    {
+      gallery => {
+        main_path => 'public/gallery',
+        sizes => {
+          thumbnail => {
+            width   => 412,
+            height  => 412,
+            crop    => 1,
+            quality => 85
+          },
+          medium => {
+            width   => 800,
+            height  => 550,
+            crop    => 0,
+            quality => 90
+          },
+          large => {
+            width   => 1200,
+            height  => 800,
+            crop    => 0,
+            quality => 90
+          }
         }
-      }
-    },
-  }
+      },
+    }
 
 example app.pl
 
